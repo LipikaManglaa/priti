@@ -1,0 +1,1435 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Priti</title>
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+
+</head>
+
+<body>
+	
+  
+  <!-- LogIn Modal -->
+  <div class="modal fade" id="logIn" tabindex="-1" aria-labelledby="logInLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+			<img src="images/logo.png" alt="Logo"/>
+		  
+		  <button type="button" class="btn-close btn-login" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+			<section class="container-fluid py-lg-4 py-2">
+				<div class="container">
+					<div class="row">
+						<div class=" col-12">
+							<div class="contact-form">
+								<h3>Log In</h3>
+								<form action="">
+								   
+									<div class="m-md-3 m-2 p-2">
+										<label  class="form-label">User Name *</label>
+										<input type="text" class="form-control" placeholder="Enter User Name">
+									  </div>
+									  <div class="m-md-3 m-2 p-2">
+										<label  class="form-label">Password *</label>
+										<input type="password" class="form-control"  placeholder="Password">
+									  </div>
+									 
+							  								  
+									 <div class="m-md-3 m-2 p-2 contactformbtn">
+			
+										<button type="submit" class="btn ">LogIn</button>
+								
+								
+									  </div>
+								</form>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			 </section>
+		</div>
+		
+	  </div>
+	</div>
+  </div>
+  <!-- LogIn modal ends here -->
+  <!-- Register Modal start here -->
+  <div class="modal fade" id="register" tabindex="-1" aria-labelledby="registerLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+			<img src="images/logo.png" alt="Logo"/>
+		  
+		  <button type="button" class="btn-close btn-register" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+			<section class="container-fluid py-lg-4 py-2">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="contact-form">
+								<h3>Register Here</h3>
+								<form action="" class="needs-validation" novalidate id="passwordForm">
+								   
+									<div class="m-md-3 m-2 p-2">
+										<label  class="form-label" for="validationCustom01">First Name *</label>
+										<input type="text" class="form-control" placeholder="First Name" id="validationCustom01" required>
+										<div class="invalid-feedback">
+											Please choose a first name.
+										  </div>
+									</div>
+									  <div class="m-md-3 m-2 p-2">
+										<label  class="form-label" for="validationCustom01">Last Name *</label>
+										<input type="text" class="form-control" placeholder="Last Name"id="validationCustom01" required>
+										<div class="invalid-feedback">
+											Please choose a last name.
+										  </div>
+									</div>
+									  <div class="m-md-3 m-2 p-2">
+										<label  class="form-label" for="validationCustom01">Mobile Number *</label>
+										<input type="text" class="form-control"  placeholder="Mobile No." id="validationCustom01" required>
+										<div class="invalid-feedback">
+											Please choose a mobile no.
+										  </div>
+									</div>
+									  <div class="m-md-3 m-2 p-2">
+										<label  class="form-label" for="validationCustom01"> Email Address *</label>
+										<input type="email" class="form-control"  placeholder="Email" id="validationCustom01" required>
+										<div class="invalid-feedback">
+											Please choose a Email address.
+										  </div>
+									</div>
+									
+									  <div class="m-md-3 m-2 p-2">
+										<label  class="form-label" for="validationCustom01">Password *</label>
+										<input type="password" class="form-control" name="password" placeholder="password" id="password" required>
+									  </div>
+									  <div class="m-md-3 m-2 p-2">
+										<label  class="form-label" for="validationCustom01"> Confirm password *</label>
+										<input type="password" class="form-control" name="password2"  placeholder="Confirm Password" id="password2" required>
+									  </div>
+							  
+									
+									 <div class="m-md-3 m-2 p-2 contactformbtn">
+									<button type="submit" class="btn ">Register</button>
+								
+								
+									  </div>
+								</form>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			 </section>
+		</div>
+		
+	  </div>
+	</div>
+  </div>
+  <!-- Register Modal ends here -->
+	<div class="headertop"></div>
+	<header class="container-fluid sticky-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<nav class="navbar navbar-expand-lg mobile ">
+						<a href="" class="navbar-brand">
+							<img src="images/logo.png" />
+						</a>
+						<button class="navbar-toggler mobile-content" type="button" data-bs-toggle="offcanvas"
+							data-bs-target="#offcanvasExample">
+							<span class="navbar-toggler-icon mobile-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse justify-content-end menu" id="navbarNav">
+							<ul class="navbar-nav align-items-lg-center">
+								<li class="nav-item">
+									<a href="" class="nav-link">
+										Collection
+									</a>
+								</li>
+								<li class="nav-item">
+									<a href="help.html" class="nav-link">
+										Help
+									</a>
+								</li>
+								<li class="nav-item">
+									<a href="product.html" class="nav-link">
+										product
+									</a>
+								</li>
+								<li class="nav-item">
+									<a href="winner.html" class="nav-link">
+										Winners
+									</a>
+								</li>
+								<li class="nav-item">
+									<a href="contact.html" class="nav-link">
+										Contact
+									</a>
+								</li>
+								<li class="nav-item">
+									<button class="get-start" data-bs-toggle="modal" data-bs-target="#register">Get Started</button>
+								</li>
+								<li>
+									<button class="logIn" data-bs-toggle="modal" data-bs-target="#logIn">Log In</button>
+								</li>
+							</ul>
+						</div>
+					</nav>
+					<div class="offcanvas offcanvas-start offcanvas-size-sm" id="offcanvasExample">
+						<div class="offcanvas-header">
+							<h5 class="offcanvas-title" id="offcanvasExampleLabel">
+								<img src="images/logo.png" />
+							</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+								aria-label="Close"></button>
+						</div>
+						<div class="offcanvas-body">
+							<div class=" navbar-collapse justify-content-end menu" id="navbarNav">
+								<ul class="navbar-nav align-items-lg-center">
+									<li class="nav-item">
+										<a href="" class="nav-link">
+											Collection
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="" class="nav-link">
+											Help
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="" class="nav-link">
+											Tips & Tricks
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="" class="nav-link">
+											Winners
+										</a>
+									</li>
+									<li class="nav-item">
+										<button class="get-start" data-bs-toggle="modal" data-bs-target="#register">Get Started</button>
+									</li>
+									<li>
+										<button class="logIn" data-bs-toggle="modal" data-bs-target="#logIn">Log In</button>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</header>
+	<!-- Banner Section start here -->
+	<section class="container-fluid banner">
+		<div class="container banner-inner">
+			<div class="row">
+				<div class="col-lg-3 col-6 col-md-6  order-1 order-md-1">
+					<div class="banner-left-img">
+						<div class="banner-left-top-img d-flex flex-column justify-content-center  align-items-center">
+							<div class="banner-left-list-img">
+								<img src="images/Vector.png" alt="Banner" title="banner" />
+
+							</div>
+							<h3>120<span>Year</span></h3>
+						</div>
+						<figure>
+							<img src="images/banner-top-img.png" alt="" />
+						</figure>
+
+					</div>
+				</div>
+				<div class="col-lg-6 col-12 col-md-12 text-center banner-center-img   order-3 order-md-2">
+					<div class="banner-center">
+						<div class="border-top-banner"></div>
+						<h2>World’s Biggest<br />
+							<span>Auction Platform</span>
+						</h2>
+						<p>We Bring the showroom to you.</p>
+						<button>Discover Now</button>
+					</div>
+					<figure>
+						<img src="images/banner-center-img.png" alt="Banner" />
+					</figure>
+				</div>
+				<div class="col-lg-3 col-6 col-md-6   order-2 order-md-3">
+					<div class="banner-right-img">
+						<div class="banner-right-top-img d-flex flex-column justify-content-center  align-items-center">
+							<div class="banner-right-list-img">
+								<img src="images/Vector-right.png" alt="Banner" title="banner" />
+								<img src="images/Vector-right-bottom.png" alt="Banner" title="banner" />
+							</div>
+							<h3>12<span>Bid So Far</span></h3>
+						</div>
+						<figure>
+							<img src="images/banner-right-img.png" alt="" />
+						</figure>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-10 position-relative search-center">
+					<div class="row row-cols-lg-5 row-cols-2 gy-lg-0 gy-3 filterBox py-4  position-absolute">
+						<div class="col text-center">
+							<label for="">Location</label>
+							<select name="" id="">
+								<option value="">Norway</option>
+							</select>
+						</div>
+						<div class="col text-center">
+							<label for="">Year</label>
+							<select name="" id="">
+								<option value="">793 AD</option>
+							</select>
+						</div>
+						<div class="col text-center">
+							<label for="">Religion</label>
+							<select name="" id="">
+								<option value="">Lutheranism</option>
+							</select>
+						</div>
+						<div class="col text-center">
+							<label for="">Type</label>
+							<select name="" id="">
+								<option value="">Weapons</option>
+							</select>
+						</div>
+						<div class="col mobile-center">
+							<button><img src="images/vector-search.png" alt="Search" title="Search" />Search</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Banner Section ends here -->
+	<!-- Third Section start here -->
+	<section class="container-fluid py-lg-5">
+		<div class="container explore-auctions-list">
+			<div class="row">
+				<div class="col-12">
+
+
+					<div class="explore-auctions">
+						<div class="exlore-auctions-item"></div>
+					</div>
+					<p>Explore Auctions</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Third Section ends here -->
+	<!-- Our Auction Collections Section start here -->
+	<div class="container-fluid py-lg-5">
+		<div class="container aucttion-collection">
+			<div class="row">
+				<div class="col-sm-6 col-12">
+					<h3>Our Auction Collections:</h3>
+				</div>
+				<div class=" col-sm-6 col-12 text-end">
+					<button>View all</button>
+				</div>
+			</div>
+
+
+			<div class="row row-cols-lg-5 ge-5 auction-cat justify-content-between">
+				<div class="col">
+					<div class="aucttion-collection-items">
+						<img src="images/auctions-collection/home-decor.png" alt="Home Decor" title="Home Decor" />
+
+					</div>
+					<span>Home Decor</span>
+				</div>
+				<div class="col">
+					<div class="aucttion-collection-items">
+						<img src="images/auctions-collection/Antique-Furniture.png" alt="Home Decor"
+							title="Home Decor" />
+					</div>
+					<span>Antique Furniture</span>
+				</div>
+				<div class="col">
+					<div class="aucttion-collection-items">
+						<img src="images/auctions-collection/Recycle-Furniture.png" alt="Home Decor"
+							title="Home Decor" />
+					</div>
+					<span>Recycle Furniture</span>
+				</div>
+				<div class="col">
+					<div class="aucttion-collection-items">
+						<img src="images/auctions-collection/Furniture.png" alt="Home Decor" title="Home Decor" />
+					</div>
+					<span>Furniture</span>
+				</div>
+				<div class="col">
+					<div class="aucttion-collection-items">
+						<img src="images/auctions-collection/living-room.png" alt="Home Decor" title="Home Decor" />
+					</div>
+					<span>Living Room</span>
+				</div>
+			</div>
+
+
+
+		</div>
+	</div>
+	<!-- Our Auction Collections ends here -->
+	<!-- Featured Products section start here -->
+	<div class="container-fluid py-lg-5">
+		<div class="container feature-product">
+			<div class="row">
+				<div class="col-12 feature-pro">
+					<h3>Featured Products</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/feature-products/Modern-Storage.png" alt="Modern Storage" title="
+						Modern Storage" />
+							<div class="feature-product-off">
+								<span>50% Off</span>
+							</div>
+							<div class="feature-product-no">1</div>
+						</div>
+
+						<h4>Modern Storage</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/feature-products/slim-dinning-chair (1).png" alt="Slim Dinning Chair"
+								title="
+					Slim Dinning Chair" />
+							<div class="feature-product-off">
+								<span>50% Off</span>
+							</div>
+						</div>
+
+						<h4>Slim Dining Chair</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/feature-products/ottoman.png" alt="Ottoman for Loft Sofa" title="
+					Ottoman for Loft Sofa" />
+							<div class="feature-product-off">
+								<span>60%</span><span class="feature-hot">HOT</span>
+							</div>
+							<div class="feature-product-no">2</div>
+						</div>
+
+						<h4>Ottoman for Loft Sofa</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/feature-products/dinning-chair.png" alt="Arne Dining Chair" title="
+					Arne Dining Chair" />
+							<div class="feature-product-off">
+								<span>60% Off</span><span class="feature-hot">HOT</span>
+							</div>
+						</div>
+
+						<h4>Arne Dining Chair</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/feature-products/nightstand.png" alt="White Oak Nightstand" title="
+					White Oak Nightstand" />
+							<div class="feature-product-off">
+								<span>50% Off</span>
+							</div>
+						</div>
+
+						<h4>White Oak Nightstand</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/feature-products/slim-desk.png" alt="Vipp Desk Lamp" title="
+					Vipp Desk Lamp" />
+							<div class="feature-product-off">
+								<span>50% Off</span>
+							</div>
+							<div class="feature-product-no"><img src="images/feature-products/Vector.png" alt=""></div>
+						</div>
+
+						<h4>Vipp Desk Lamp</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/feature-products/table.png" alt="Hironpal Table" title="
+					Hironpal Table" />
+							<div class="feature-product-off">
+								<span>60%</span><span class="feature-hot">HOT</span>
+							</div>
+							<div class="feature-product-no">1</div>
+						</div>
+
+						<h4>Hironpal Table</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/feature-products/rocking-chair.png" alt="Rocking Chair" title="
+					Rocking Chair" />
+							<div class="feature-product-off">
+								<span>50% Off</span>
+							</div>
+							<div class="feature-product-no">1</div>
+						</div>
+
+						<h4>Rocking Chair</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-12 feature-btn">
+					<button>Load More</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Featured Products section ends here -->
+	<!-- Auction start section start here -->
+	<div class="container-fluid py-5">
+		<div class="container auction-start">
+			<div class="row">
+				<div class="col-12">
+					<div class="row">
+						<div class="col-sm-3 col-12">
+							<img src="images/auction-start/pngegg 1.png" alt="Auction start" />
+						</div>
+						<div class="col-sm-5 col-12">
+							<h3>Auctions starting right
+								now 50% off</h3>
+							<button>Discover Now</button>
+						</div>
+						<div class="col-sm-4 col-12">
+							<img src="images/auction-start/pngegg (1) 1.png" alt="Auction start" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Auction start section ends here -->
+	<!-- How It work section start here -->
+	<div class="container-fluid py-lg-5">
+		<div class="container how-work">
+			<div class="row">
+				<div class="col-12">
+					<h3>How It Works?</h3>
+				</div>
+			</div>
+
+			<div class="row border-set justify-content-between">
+				<div class="col-sm-4 col-12">
+					<div class="how-work-items">
+						<div class="how-work-list">
+							<div class="how-work-img">
+								<img src="images/how-work/Vector.png" alt="How IT Works?" />
+							</div>
+							<img src="images/how-work/01.png" class="mobile-adjust" />
+						</div>
+						<h4>Browse our catalog</h4>
+						<p>Sit lectus eleifend id consectetur
+							amet a. Etiam sed urna lacus sed dolor vivamus viverra eget.</p>
+					</div>
+				</div>
+				<div class=" col-sm-4 col-12 ">
+					<div class="how-work-items ">
+						<div class="how-work-list">
+							<div class="how-work-img">
+								<img src="images/how-work/Vector.png" alt="How IT Works?" />
+							</div>
+							<img src="images/how-work/01.png" />
+						</div>
+						<h4>Browse our catalog</h4>
+						<p>Sit lectus eleifend id consectetur
+							amet a. Etiam sed urna lacus sed dolor vivamus viverra eget.</p>
+					</div>
+				</div>
+				<span class="border-list"></span>
+				<div class=" col-sm-4 col-12">
+					<div class="how-work-items">
+						<div class="how-work-list">
+							<div class="how-work-img">
+								<img src="images/how-work/Vector.png" alt="How IT Works?" />
+							</div>
+							<img src="images/how-work/01.png" />
+						</div>
+						<h4>Browse our catalog</h4>
+						<p>Sit lectus eleifend id consectetur
+							amet a. Etiam sed urna lacus sed dolor vivamus viverra eget.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- How It work Section ends here -->
+	<!-- Special Products section start here -->
+	<div class="container-fluid py-lg-5">
+		<div class="container feature-product">
+			<div class="row">
+				<div class="col-12 feature-pro">
+					<h3>Special Products</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/special-product/shoe-rack.png" alt="Sko Shoe Rack Grey" title="
+						Sko Shoe Rack Grey" />
+							<div class="feature-product-off">
+								<span>50% Off</span>
+							</div>
+						</div>
+
+						<h4>Sko Shoe Rack Grey</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/special-product/patio-chair.png" alt="Teardrop Patio Chair" title="
+					Teardrop Patio Chair" />
+							<div class="feature-product-off">
+								<span>50% Off</span>
+							</div>
+						</div>
+
+						<h4>Teardrop Patio Chair</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/special-product/coffee-table.png" alt="Cosgrave Coffee Table" title="
+					Cosgrave Coffee Table" />
+							<div class="feature-product-off">
+								<span>60%</span><span class="feature-hot">HOT</span>
+							</div>
+						</div>
+
+						<h4>Cosgrave Coffee Table</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/special-product/wall-mounted.png" alt="Shelves Wall Mounted" title="
+					Shelves Wall Mounted" />
+							<div class="feature-product-off">
+								<span>60% Off</span><span class="feature-hot">HOT</span>
+							</div>
+						</div>
+
+						<h4>Shelves Wall Mounted</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/special-product/shelve-wall.png" alt="Floating Shelves Wall " title="
+					Floating Shelves Wall " />
+							<div class="feature-product-off">
+								<span>50% Off</span>
+							</div>
+						</div>
+
+						<h4>Floating Shelves Wall </h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/special-product/table-lamp.png" alt="BONZY Floor Chair " title="
+					BONZY Floor Chair " />
+							<div class="feature-product-off">
+								<span>50% Off</span>
+							</div>
+							<div class="feature-product-no"><img src="images/feature-products/Vector.png" alt=""></div>
+						</div>
+
+						<h4>BONZY Floor Chair </h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/special-product/chair.png" alt="Zero Gravity Chair" title="
+					Zero Gravity Chair" />
+							<div class="feature-product-off">
+								<span>60%</span><span class="feature-hot">HOT</span>
+							</div>
+							<div class="feature-product-no">1</div>
+						</div>
+
+						<h4>Zero Gravity Chair</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/special-product/mirror.png" alt="Armen Living Morden" title="
+					Armen Living Morden" />
+							<div class="feature-product-off">
+								<span>50% Off</span>
+							</div>
+							<div class="feature-product-no">1</div>
+						</div>
+
+						<h4>Armen Living Morden</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-12 feature-btn">
+					<button>Load More</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Featured Products section ends here -->
+	<!-- special Deal Section start here -->
+	<div class="container-fluid py-lg-5">
+		<div class="container special-deal">
+			<div class="row">
+				<div class="col-12">
+					<h3>Special Deal</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-6 col-12 special-deal-items">
+					<div class="row">
+						<div class="col-lg-5 col-5">
+							<div class="special-deal-content">
+								<img src="images/special-deal/dressing-table.png" alt="Dressing Table"
+									title="Dressing Table" />
+								<div class="special-deal-content-list">
+									<span>50% </span><span class="feature-hot">HOT</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-7 col-7">
+							<h4>Dressing Table</h4>
+							<p>New Balance Arishi <br />
+								Sport V1</p>
+							<div class="row">
+								<div class="col-lg-2 col-3">
+									<div class="special-deal-round">
+										<div class="special-deal-item">00</div>
+										<span>days</span>
+									</div>
+								</div>
+								<div class="col-lg-2 col-3">
+									<div class="special-deal-round">
+										<div class="special-deal-item">00</div>
+										<span>hours</span>
+									</div>
+								</div>
+								<div class="col-lg-2 col-3">
+									<div class="special-deal-round">
+										<div class="special-deal-item">00</div>
+										<span>mins</span>
+									</div>
+								</div>
+							</div>
+							<h5>$18.00</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-12 special-deal-items">
+					<div class="row">
+						<div class="col-lg-5 col-5">
+							<div class="special-deal-content">
+								<img src="images/special-deal/lamp.png" alt="Night Lamp" title="Night Lamp" />
+								<div class="special-deal-content-list">
+									<span>50% </span><span class="feature-hot">HOT</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-7 col-7">
+							<h4>Night Lamp</h4>
+							<p>New Balance Arishi <br />
+								Sport V1</p>
+							<div class="row">
+								<div class="col-lg-2 col-3">
+									<div class="special-deal-round">
+										<div class="special-deal-item">00</div>
+										<span>days</span>
+									</div>
+								</div>
+								<div class="col-lg-2 col-3">
+									<div class="special-deal-round">
+										<div class="special-deal-item">00</div>
+										<span>hours</span>
+									</div>
+								</div>
+								<div class="col-lg-2 col-3">
+									<div class="special-deal-round">
+										<div class="special-deal-item">00</div>
+										<span>mins</span>
+									</div>
+								</div>
+							</div>
+							<h5>$18.00</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-12 special-deal-items">
+					<div class="row">
+						<div class="col-lg-5 col-5">
+							<div class="special-deal-content">
+								<img src="images/special-deal/chair.png" alt="Easy Chair" title="Easy Chair" />
+								<div class="special-deal-content-list">
+									<span>50% </span><span class="feature-hot">HOT</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-7 col-7">
+							<h4>Easy Chair</h4>
+							<p>New Balance Arishi <br />
+								Sport V1</p>
+							<div class="row">
+								<div class="col-lg-2 col-3">
+									<div class="special-deal-round">
+										<div class="special-deal-item">00</div>
+										<span>days</span>
+									</div>
+								</div>
+								<div class="col-lg-2 col-3">
+									<div class="special-deal-round">
+										<div class="special-deal-item">00</div>
+										<span>hours</span>
+									</div>
+								</div>
+								<div class="col-lg-2 col-3">
+									<div class="special-deal-round">
+										<div class="special-deal-item">00</div>
+										<span>mins</span>
+									</div>
+								</div>
+							</div>
+							<h5>$18.00</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Special deal section ends here -->
+	<!-- Colorfull ection start here -->
+	<div class="container-fluid py-lg-5 py-3">
+		<div class="container comfort-facilities">
+			<div class="row  gx-3">
+				<div class="col-md-6 col-12 ">
+					<div class="comfort-lamp">
+						<div class="row">
+							<div class="col-md-7 col-6 py-lg-4 px-lg-4 ">
+								<h4>Best Colorful Lamp</h4>
+								<p>Festival Season is here</p>
+								<button>Shop Now</button>
+							</div>
+							<div class="col-md-5 col-6">
+								<img src="images/comfort/colorfull-lamp.png" alt="Colorfull Lamp">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-12 ">
+					<div class="comfort-lamp comfortable-chair">
+						<div class="row">
+							<div class="col-md-7 col-6 py-lg-4 px-lg-4">
+								<h4>Comfortable Chair</h4>
+								<p>Festival Season is here</p>
+								<button>Shop Now</button>
+							</div>
+							<div class="col-lg-5 col-6">
+								<img src="images/comfort/comfort-chair.png" alt="Comfortable Chair"
+									title="Comfortable Chair">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Colorfull section ends here -->
+
+	<!-- Upcoming Auction section start here -->
+	<div class="container-fluid py-lg-5">
+		<div class="container feature-product">
+			<div class="row">
+				<div class="col-12 feature-pro">
+					<h3>Upcoming Auction</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/upcoming-auction/tealight-holder.png" alt="Ceramic Tealight Holder" title="
+						Ceramic Tealight Holder" />
+							<div class="feature-product-off">
+								<span>50% Off</span>
+							</div>
+						</div>
+
+						<h4>Ceramic Tealight Holder</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/upcoming-auction/suscipit.png" alt="Semper Suscipit" title="
+					Semper Suscipit" />
+							<div class="feature-product-off">
+								<span>50% Off</span>
+							</div>
+						</div>
+
+						<h4>Semper Suscipit</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/upcoming-auction/lamp.png" alt="Hanging Lamp" title="
+					Hanging Lamp" />
+							<div class="feature-product-off">
+								<span>60%</span><span class="feature-hot">HOT</span>
+							</div>
+						</div>
+
+						<h4>Hanging Lamp</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/upcoming-auction/red-chair.png" alt="Round Chair" title="
+					Round Chair" />
+							<div class="feature-product-off">
+								<span>60% Off</span><span class="feature-hot">HOT</span>
+							</div>
+						</div>
+
+						<h4>Round Chair</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/upcoming-auction/round-decor.png" alt="Floating round Decor " title="
+					Floating round Decor " />
+							<div class="feature-product-off">
+								<span>50% Off</span>
+							</div>
+						</div>
+
+						<h4>Floating round Decor </h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/upcoming-auction/table-lamp.png" alt="Preston End Table " title="
+					Preston End Table " />
+							<div class="feature-product-off">
+								<span>50% Off</span>
+							</div>
+							<div class="feature-product-no"><img src="images/feature-products/Vector.png" alt=""></div>
+						</div>
+
+						<h4>Preston End Table </h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/upcoming-auction/chair-white.png" alt="Aliquam Consequat" title="
+					Aliquam Consequat" />
+							<div class="feature-product-off">
+								<span>60%</span><span class="feature-hot">HOT</span>
+							</div>
+							<div class="feature-product-no">1</div>
+						</div>
+
+						<h4>Aliquam Consequat</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/upcoming-auction/table-lamp.png" alt="Table Lamp" title="
+					Table Lamp" />
+							<div class="feature-product-off">
+								<span>50% Off</span>
+							</div>
+							<div class="feature-product-no">1</div>
+						</div>
+
+						<h4>Table Lamp</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-12 feature-btn">
+					<button>Load More</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Upcoming Auction section ends here -->
+	<!-- Footer Section start here -->
+	<section class="container-fluid py-5 footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-sm-6 col-12 ">
+					<div class="site-links">
+						<h3>Site Links</h3>
+						<ul>
+							<li><a href="">Auctions</a></li>
+							<li><a href="">PritiAuction Reviews</a></li>
+							<li><a href=""></a> PritiAuction is Legit</a></li>
+							<li><a href="">Press</a></li>
+							<li><a href="">Log in</a></li>
+							<li><a href="register.html">Create Account</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 col-12 ">
+					<div class="help">
+						<h3>Help</h3>
+						<ul>
+							<li><a href="">How to Bid in an Auction</a></li>
+							<li><a href="">Tips & Tricks</a></li>
+							<li><a href="">Frequently Asked Questions</a></li>
+							<li><a href="">What is a Bid Pack? </a></li>
+							<li><a href="">What is “Time as Highest Bidder?”</a></li>
+							<li><a href="">Promotions</a></li>
+							<li><a href="">Orders & Shipping</a></li>
+							<li><a href="">Payments</a></li>
+							<li><a href="">House Rules</a></li>
+							<li><a href="">Royalty Program</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6 col-12 ">
+					<div class="about">
+						<h3>About</h3>
+						<ul>
+							<li><a href="">
+									Careers</a></li>
+							<li><a href="">Our team</a></li>
+							<li><a href="">Suppliers</a></li>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="">Terms of Use</a></li>
+							<li><a href="">Privacy Policy</a></li>
+							<li><a href="">Accessibility</a></li>
+
+						</ul>
+					</div>
+
+				</div>
+				<div class="col-lg-3 col-sm-6 col-12 ">
+					<div class="lets-talk">
+						<h3>let’s Talk</h3>
+						<div class="lets-talk-content"><i class="fa-solid fa-phone"></i><a
+								href="tel:8778009998"><span>(877) 800-9998 </span></a></div>
+						<div class="lets-talk-email"><i
+								class="fa-solid fa-envelope"></i><span>Pritiauction@gmail.com</span> </div>
+
+					</div>
+					<div class="find-us">
+						<h3>Find us</h3>
+						<div class="row">
+
+							<div class=" col-md-2 col-1">
+								<div class="find-us-address">
+									<i class="fa-sharp fa-regular fa-location-dot"></i>
+								</div>
+							</div>
+							<div class="col-9">
+								<div class="find-us-address">
+									<span>502 New Design String
+										Melbourne, Australia</span>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer Section ends here -->
+	<!-- Footer outer Section start here -->
+	<div class="container-fluid footer-outer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-outer-item ">
+					<div class="col-md-6 col-12">
+						<div class="footer-outer-content">&copy;© PritiAuction - All Rights Reserved
+						</div>
+					</div>
+					<div class="col-md-6 col-12">
+						<div class="footer-outer-card text-md-end">
+							<img src="images/Group 869.png" alt="Bnak Card" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer Outer Section ends here -->
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+<script>
+	let headerHeight=document.querySelector('header');
+	var logo=document.querySelector('header .navbar-brand img');
+
+	window.onscroll=function(){
+		var scrollArea=window.scrollY;
+		if(scrollArea>=300){
+			// headerHeight.style.height="75px";
+			// logo.style.width="180px";
+		}
+		
+
+	}
+</script>
+<script>
+	// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+</script>
+<script>
+
+
+$('#passwordForm').bootstrapValidator({
+      message: 'This value is not valid',
+      live: 'enabled',
+      fields: {
+        password: {
+          message: 'The password is not valid',
+          validators: {
+            notEmpty: {
+              message: 'The password is required and cannot be empty'
+            },
+            identical: {
+              field: 'password',
+              message: 'The passwords must match. '
+            },
+            stringLength: {
+              min: 6,
+              max: 30,
+              message: 'The password must be more than 6 and less than 30 characters long'
+            },
+            regexp: {
+              regexp: /^[a-zA-Z0-9_]+$/,
+              message: 'The password can only consist of alphabetical, number and underscore'
+            }
+          }
+        },
+        password2: {
+          message: 'The password2 is not valid',
+          validators: {
+            notEmpty: {
+              message: 'The password2 is required and cannot be empty'
+            },
+            identical: {
+              field: 'password',
+              message: 'The passwords must match. '
+            },
+            stringLength: {
+              min: 6,
+              max: 30,
+              message: 'The password2 must be more than 6 and less than 30 characters long'
+            },
+            regexp: {
+              regexp: /^[a-zA-Z0-9_]+$/,
+              message: 'The password2 can only consist of alphabetical, number and underscore'
+            }
+          }
+        }
+      }
+      });
+
+
+  
+</script>
+</html>

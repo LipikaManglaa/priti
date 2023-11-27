@@ -1,0 +1,1383 @@
+@media only screen and (min-width:200px) and (max-width:567px){
+    /* Header section start here */
+    .headertop {
+               height: 20px;
+    }
+    .mobile img{
+        width: 140px;
+    }
+    #offcanvasExample{
+        width: 80%;
+    }
+    .mobile-content{
+        width: 30px;
+         height: 30px;
+    padding: 5px;
+    line-height: 5px;
+    border:1px solid var(--primaryColor) !important;
+    border-radius: 0px !important;
+    }
+    .mobile-content:focus{
+        border:1px solid var(--primaryColor) !important;
+        outline: none  !important;
+        box-shadow: none !important;
+    }
+    .mobile{
+        padding:0px;
+    }
+    .mobile-icon{
+        width: 20px;
+    height: 20px;
+    } 
+    #offcanvasExampleLabel img{
+        width: 100px;
+    }
+    .get-start {
+        padding: 10px 20px;
+        font-size: 15px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    .logIn {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    /* Header section ends here */
+   /* Banner Section start here */
+   .banner{
+    padding: 40px 0px;
+    position: relative;
+   }
+   .banner-left-img figure {
+    display: none;
+   }
+   .banner-center-img figure{
+    display: none;
+   }
+   .banner-right-img figure {
+    display: none;
+   }
+   .banner-center h2 {
+     font-size: 30px;
+    line-height: 49px;
+   }
+   .banner-left-top-img {
+    width: 100px;
+    height: 100px;
+   }
+   .banner-left-list-img {
+    width: 40px;
+    height: 40px;
+   }
+.banner-center .border-top-banner {
+      margin: 45px auto 6px auto;
+}
+   .banner-left-top-img h3 {
+       font-size: 15px;
+        margin-top: 5px;
+}
+   .banner-center button {
+    padding: 11px 18px;
+   margin-top: 20px;
+   margin-bottom: 15px;
+}
+.banner-right-top-img {
+    width: 100px;
+    height: 100px;
+}
+.banner-right-top-img h3 {
+       font-size: 15px;
+        margin-top: 5px;
+}
+.banner-right-list-img {
+    width: 40px;
+    height: 40px;
+}
+.banner-left-img {
+    padding-left: 35px;
+}
+.filterBox {
+    position: initial !important;
+    margin: auto;
+}
+.banner-center-img{
+    padding-top: 0px;
+}
+.filterBox button {
+    padding: 12px 36px;
+    width: 160px;
+    font-size: 15px;
+   margin-top: 10px;
+}
+.filterBox .col {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.filterBox select {
+    padding: 0px;
+    font-size: 13px;
+}
+.mobile-center{
+display: table;
+margin: auto;
+}
+.filterBox label {
+       font-size: 17px;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+.explore-auctions {
+       margin: 25px auto 12px auto;
+}
+.aucttion-collection-items {
+    width: 120px;
+    height: 120px;
+}
+.aucttion-collection-items img{
+    width: 80%;
+}
+.feature-pro h3 {
+      font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+       margin-bottom: 15px;
+}
+.special-deal h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 38px;
+    margin-bottom: 0px;
+
+}
+   /* Banner Sectino ends here */
+   /* Auction sections start here */
+   .aucttion-collection h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+.frequent-head h3{
+    font-size: 18px;
+}
+.aucttion-collection button {
+       margin-bottom: 20px;
+       background-color: var(--primaryColor);
+       padding: 0px 20px;
+       border: 0px;
+       color: #fff;
+       font-size: 14px;
+}
+.auction-cat .col {
+    flex-basis: 40%;
+    justify-content: inherit;
+}
+.aucttion-collection span {
+        font-size: 15px;
+    line-height: 25px;
+       margin-top: 1px;
+       margin-bottom: 20px;
+}
+.feature-product-items {
+    padding: 35px 25px 0px 25px;
+    margin-bottom: 20px;
+    border: 1px solid var(--primaryColor);
+}
+.feature-product-img>img:first-child {
+       width: 80%;
+    height: 140px;
+}
+.feature-product-img {
+    height: 150px;
+}
+.feature-product-off span {
+      font-size: 12px;
+        padding: 6px;
+}
+.feature-product-off {
+     top: -30px;
+     left: -12px;
+}
+.feature-product-items h5 {
+    margin-top: 9px;
+}
+.feature-product-no {
+  
+    font-size: 15px;
+       right: -12px;
+    top: -30px;
+}
+.feature-product-items h4 {
+       font-size: 15px;
+    margin: 0px 0px 10px 0px;
+  }
+  .feature-product-list h3 {
+       font-size: 19px;
+    line-height: 20px;
+  }
+  .special-deal-content-list span {
+       font-size: 12px;
+    
+    padding: 5px;
+}
+.auction-start h3 {
+       font-size: 20px;
+    line-height: 38px;
+       padding-top: 20px;
+}
+.auction-start img:first-child{
+  margin: auto;
+  display: table;
+  width: 80%;
+}
+.auction-start button {
+       font-size: 15px;
+     padding: 11px 20px;
+       margin: 20px auto 30px auto;
+}
+.border-list {
+    /* width: 200px; */
+    height: 0px;
+  transform: rotate(90deg);
+    top: 50%;
+    left: 0%;
+    z-index: -1;
+}
+.how-work-items {
+    width: 100%;
+    padding: 10px;
+    height: auto;
+      margin-bottom: 50px;
+}
+.how-work-img {
+    width: 40px;
+    height: 40px;
+}
+.how-work-items:last-child{
+    margin-bottom: 20px !important;
+}
+.feature-product-items button {
+   padding: 10px;
+   
+    line-height: 21px;
+    margin-top: 15px;
+}
+.how-work-items h4 {
+        font-size: 17px;
+    line-height: 15px;
+}
+.how-work-items p {
+      font-size: 13px;
+}
+.how-work h3 {
+      font-size: 20px;
+    line-height: 38px;
+        margin-bottom: 20px;
+}
+.mobile-adjust{
+    width: 50px;
+}
+.special-deal-items{
+    box-shadow: 0px 0px 10px 2px #ccc;
+}
+.special-deal-content-list {
+     top: 10px;
+     display: flex;
+}
+.special-deal-content-list span {
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+.special-deal-content {
+    padding-top: 30px;
+}
+.comfort-lamp h4 {
+    font-weight: 700;
+    font-size: 19.4482px;
+    line-height: 22px;
+}
+.comfort-lamp button {
+       font-size: 15px;
+      width: 120px;
+      padding: 10px;
+    margin-bottom: 20px;
+}
+.special-deal-content img{
+       width: 100%;
+}
+.special-deal-item {
+    width: 30px;
+    height: 30px;
+      font-size: 12.3px;
+       line-height: 30px;
+}
+.special-deal h5 {
+      font-size: 20px;
+       margin-top: 10px;
+}
+.special-deal-items p {
+       margin-bottom: 10px;
+}
+.comfort-lamp{
+    padding: 20px 20px 0px 20px;
+    margin-bottom: 40px;
+    height: auto;
+}
+.comfortable-chair {
+   
+    margin-bottom: 0px;
+    
+}
+.comfort-lamp img{
+    width: 100%;
+}
+.footer-outer {
+      padding: 15px 0px;
+}
+.footer .site-links h3 {
+     font-size: 18px;
+    line-height: 25px;
+       margin-bottom: 5px;
+   }
+   .site-links ul li {
+       font-size: 15px;
+    line-height: 22px;
+   }
+   .footer .help h3 {
+    font-size: 18px;
+   line-height: 25px;
+      margin-bottom: 5px;
+  }
+  .help ul li {
+      font-size: 15px;
+   line-height: 22px;
+  }
+  .footer .about h3 {
+    font-size: 18px;
+   line-height: 25px;
+      margin-bottom: 8px;
+  }
+  .about ul li {
+      font-size: 15px;
+   line-height: 22px;
+  }
+  .footer .site-links h3 {
+    font-size: 18px;
+   line-height: 25px;
+      margin-bottom: 8px;
+  }
+  .lets-talk h3{
+      font-size: 18px;
+      margin-bottom: 8px;
+   line-height: 25px;
+  }
+  .find-us h3{
+    font-size: 18px;
+    margin-bottom: 8px;
+ line-height: 25px;
+}
+.lets-talk-content i {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 10px;
+    margin-right: 7px;
+}
+.lets-talk-content {
+    margin-bottom: 10px;
+}
+.lets-talk-content span {
+    font-weight: 400;
+    font-size: 15px;
+}
+.lets-talk-email i {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 10px;
+    margin-right: 7px;
+}
+.lets-talk-email {
+    margin-bottom: 10px;
+}
+.lets-talk-email span {
+       font-size: 15px;
+}
+.find-us-address i {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 10px;
+    margin-right: 7px;
+}
+.find-us-address {
+    margin-bottom: 10px;
+}
+.find-us-address span {
+      font-size: 15px;
+}
+.footer-outer-content {
+    margin-bottom: 15px;
+    display: inherit;
+    text-align: center;
+}
+.footer-outer-card{
+    text-align: center;
+}
+.footer-outer-item{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* Auction section ends here */
+
+/* about page start here */
+.head-banner-about h3{
+	padding: 40px 0px;
+   
+    font-size: 25px;
+}
+.banner-content-about{
+	padding: 20px 0px;
+}
+.banner-content-right-about p{
+	font: 14px;
+
+}
+/* About page ends here */
+/* Contact us page start here  */
+.contact-info-add{
+    box-shadow: 0px 0px 10px 2px #ccc;
+    padding: 15px;
+margin-bottom: 15px;
+
+
+}
+.contact-info-add p{
+    font-size: 15px;
+    line-height: 20px;
+}
+.contact-icon-info {
+    width: 45px;
+    height: 45px;
+}
+.contact-icon-info i{
+    line-height: 45px;
+}
+.contact-map{
+	margin-top: 35px;
+	height: 300px;
+}
+.contact-address {
+    padding: 40px 0px 20px 0px;
+}
+.contact-form h3 {
+       font-size: 20px;
+       margin-bottom: 10px;
+}
+/* Contact Us page ends here */
+/* Workplace page start here */
+.breadcrumb-content {
+    padding: 25px 0px;
+}
+.left-breadvrumb nav ol li {
+       font-size: 14px;
+}
+.content-main {
+    margin-right: 0px;
+    margin-bottom: 20px;
+    height: 250px;
+}
+.content-main img{
+    width: 100%;
+    height: 100%;
+}
+.content-small img{
+    width: 23%;
+}
+.left-breadvrumb {
+    margin-bottom: 20px;
+}
+.instant-buy {
+    
+    font-size: 16px;
+    line-height: 40px;
+}
+.instant-price {
+      font-size: 16px;
+    line-height: 40px;
+}
+.instant-buy-workplace {
+    height: 40px;
+       margin-top: 25px;
+    margin-right: 0px;
+}
+.current-price {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.current-price h4 {
+    
+    font-size: 18px;
+    line-height: 20px;
+}
+.current-price h4 span {
+    margin-left: 40px;
+}
+.dining-chair h3 {
+    font-size: 20px;
+    line-height: 25px;
+}
+.dining-chair p {
+     font-size: 14px;
+    line-height: 16px;
+}
+.notified {
+    width: 150px;
+    height: 35px;
+      font-size: 14px;
+    line-height: 35px;
+   
+    padding-right: 35px;
+}
+.notified-img {
+    width: 35px;
+    height: 35px;
+}
+.border-top {
+    opacity: 0;
+    border: 0px ;
+    margin-bottom: 15px;
+}
+.current-bid-price {
+    height: 40px;
+    border-radius: 0px;
+}
+.price {
+       font-size: 16px;
+    line-height: 40px;
+     padding-right: 0px;
+}
+.current-bid {
+       font-size: 16px;
+       line-height: 40px;
+    padding-left: 0px;
+}
+.hoghest-bidder {
+    margin: 15px 0px 10px 0px;
+       font-size: 15px;
+}
+.workplace-content {
+        padding: 15px 0px 0px 0px;
+}
+.customer-info{
+    padding-left: 10px;
+}
+.customer-info h4 {
+      font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 0px;
+}
+.customer-info p {
+      font-size: 14px;
+    line-height: 18px;
+  }
+  .table-time-left {
+    height: 40px;
+      
+}
+.time-left {
+       font-size: 16px;
+    line-height: 40px;
+}
+.time-count {
+    font-size: 20px;
+    line-height: 40px;
+}
+.auction-info {
+      padding: 0px 0px;
+}
+.auction-head {
+      height: 50px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    border-radius: 0px;
+}
+.auction-head h3 {
+      line-height: 50px;
+}
+.auction-end{
+   border-bottom: 1px solid #fff;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+.auction-end-img {
+    width: 45px;
+    height: 45px;
+   
+}
+.auction-end-img img{
+    line-height: 45px;
+}
+.auction-end h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+}
+.auction-end p {
+       height: inherit;
+}
+.auction-end span {
+        font-size: 14px;
+    line-height: 18px;
+       margin: 0px 0px 10px 0px;
+}
+.tabbing .nav-tabs {
+    margin-bottom: 7px;
+    border-bottom:0px;
+}
+.info-tab{
+    border: 1px solid var(--primaryColor);
+    margin-bottom: 10px;
+}
+.colorshead tr th {
+        font-size: 15px;
+        line-height: 15px;
+}
+.info-tab .nav-link{
+    font-size: 15px;
+    padding: 7px;
+}
+.colorshead {
+    height: 45px;
+}
+.tablebody tr td {
+        font-size: 13px;
+    line-height: 21px;
+        padding: 15px 0px
+}
+.tab-user-border {
+ 
+    padding: 0px;
+}
+.description {
+    padding: 0px 0px;
+      font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.reviewcomment {
+    line-height: 18px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+}
+.review {
+        font-size: 15px;
+    line-height: 16px;
+     margin-bottom: 15px;
+}
+.fromheading i {
+    line-height: 16px;
+    margin-bottom: 15px;
+}
+.fromlayout input {
+     height: 40px;
+}
+.tabbing .nav-tabs .active {
+    padding-bottom: 10px;
+}
+.reviewbtn button {
+       padding: 12px 20px;
+    width: 250px;
+    font-size: 16px;
+ }
+ .reviewbtn {
+      justify-content: center;
+}
+/* Workplace page ends here */
+}
+
+
+    @media only screen and (min-width:567px) and (max-width:767px){
+        /* Header section start here */
+        .headertop {
+                   height: 20px;
+        }
+        .mobile img{
+            width: 140px;
+        }
+        #offcanvasExample{
+            width: 80%;
+        }
+        .mobile-content{
+            width: 30px;
+             height: 30px;
+        padding: 5px;
+        line-height: 5px;
+        border:1px solid var(--primaryColor) !important;
+        border-radius: 0px !important;
+        }
+        .mobile-content:focus{
+            border:1px solid var(--primaryColor) !important;
+            outline: none  !important;
+            box-shadow: none !important;
+        }
+        .mobile{
+            padding:0px;
+        }
+        .mobile-icon{
+            width: 20px;
+        height: 20px;
+        } 
+        #offcanvasExampleLabel img{
+            width: 100px;
+        }
+        .get-start {
+            padding: 10px 20px;
+            font-size: 15px;
+            margin-bottom: 15px;
+            margin-top: 10px;
+        }
+        .logIn {
+            padding: 10px 20px;
+            font-size: 15px;
+        }
+        /* Header section ends here */
+       /* Banner Section start here */
+       .banner{
+        padding: 40px 0px;
+        position: relative;
+       }
+       .banner-left-img figure {
+        display: none;
+       }
+       .banner-center-img figure{
+        display: none;
+       }
+       .banner-right-img figure {
+        display: none;
+       }
+       .banner-center h2 {
+         font-size: 30px;
+        line-height: 49px;
+       }
+       .banner-left-top-img {
+        width: 100px;
+        height: 100px;
+       }
+       .banner-left-list-img {
+        width: 40px;
+        height: 40px;
+       }
+    .banner-center .border-top-banner {
+          margin: 45px auto 6px auto;
+    }
+       .banner-left-top-img h3 {
+           font-size: 15px;
+            margin-top: 5px;
+    }
+       .banner-center button {
+        padding: 11px 18px;
+       margin-top: 20px;
+       margin-bottom: 15px;
+    }
+    .banner-right-top-img {
+        width: 100px;
+        height: 100px;
+    }
+    .banner-right-top-img h3 {
+           font-size: 15px;
+            margin-top: 5px;
+    }
+    .banner-right-list-img {
+        width: 40px;
+        height: 40px;
+    }
+    .banner-left-img {
+        padding-left: 35px;
+    }
+    .filterBox {
+        position: initial !important;
+        margin: auto;
+    }
+    .banner-center-img{
+        padding-top: 0px;
+    }
+    .filterBox button {
+        padding: 12px 36px;
+        width: 160px;
+        font-size: 15px;
+       margin-top: 10px;
+    }
+    .filterBox .col {
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    .filterBox select {
+        padding: 0px;
+        font-size: 13px;
+    }
+    .mobile-center{
+    display: table;
+    margin: auto;
+    }
+    .filterBox label {
+           font-size: 17px;
+        margin-bottom: 5px;
+        line-height: 20px;
+    }
+    .explore-auctions {
+           margin: 25px auto 12px auto;
+    }
+    .aucttion-collection-items {
+        width: 120px;
+        height: 120px;
+    }
+    .aucttion-collection-items img{
+        width: 80%;
+    }
+    .feature-pro h3 {
+          font-size: 20px;
+        margin-top: 20px;
+        line-height: 30px;
+           margin-bottom: 15px;
+    }
+    .special-deal h3 {
+        font-size: 20px;
+        margin-top: 20px;
+        line-height: 38px;
+        margin-bottom: 0px;
+    
+    }
+       /* Banner Sectino ends here */
+       /* Auction sections start here */
+       .aucttion-collection h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        line-height: 30px;
+    }
+    .aucttion-collection button {
+           margin-bottom: 20px;
+           background-color: var(--primaryColor);
+           padding: 0px 20px;
+           border: 0px;
+           color: #fff;
+           font-size: 14px;
+    }
+    .auction-cat .col {
+        flex-basis: 31%;
+        justify-content: inherit;
+    }
+    .aucttion-collection span {
+            font-size: 15px;
+        line-height: 25px;
+           margin-top: 1px;
+           margin-bottom: 20px;
+    }
+    .feature-product-items {
+        padding: 35px 25px 0px 25px;
+        margin-bottom: 20px;
+        border: 1px solid var(--primaryColor);
+    }
+    .feature-product-img>img:first-child {
+           width: 80%;
+        height: 140px;
+    }
+    .feature-product-img {
+        height: 150px;
+    }
+    .feature-product-off span {
+          font-size: 12px;
+            padding: 6px;
+    }
+    .feature-product-off {
+         top: -30px;
+         left: -12px;
+    }
+    .feature-product-items h5 {
+        margin-top: 9px;
+    }
+    .feature-product-no {
+      
+        font-size: 15px;
+           right: -12px;
+        top: -30px;
+    }
+    .feature-product-items h4 {
+           font-size: 15px;
+        margin: 0px 0px 10px 0px;
+      }
+      .feature-product-list h3 {
+           font-size: 19px;
+        line-height: 20px;
+      }
+      .special-deal-content-list span {
+           font-size: 12px;
+        
+        padding: 5px;
+    }
+    .auction-start h3 {
+           font-size: 20px;
+        line-height: 38px;
+           padding-top: 20px;
+    }
+    .auction-start img:first-child{
+      margin: auto;
+      display: table;
+      width: 80%;
+    }
+    .auction-start button {
+           font-size: 15px;
+         padding: 11px 20px;
+           margin: 20px auto 30px auto;
+    }
+    .border-list {
+     width: 60%;
+    }
+    .how-work-items {
+        width: 100%;
+        padding: 10px;
+        height: auto;
+          margin-bottom: 50px;
+    }
+    .how-work-img {
+        width: 40px;
+        height: 40px;
+    }
+    .how-work-items:last-child{
+        margin-bottom: 20px !important;
+    }
+    .feature-product-items button {
+       padding: 10px;
+       
+        line-height: 21px;
+        margin-top: 15px;
+    }
+    .how-work-items h4 {
+            font-size: 17px;
+        line-height: 15px;
+    }
+    .how-work-items p {
+          font-size: 13px;
+    }
+    .how-work h3 {
+          font-size: 20px;
+        line-height: 38px;
+            margin-bottom: 20px;
+    }
+    .mobile-adjust{
+        width: 50px;
+    }
+    .special-deal-items{
+        box-shadow: 0px 0px 10px 2px #ccc;
+    }
+    .special-deal-content-list {
+         top: 10px;
+         display: flex;
+    }
+    .special-deal-content-list span {
+        margin-right: 10px;
+        margin-bottom: 0px;
+    }
+    .special-deal-content {
+        padding-top: 30px;
+    }
+    .comfort-lamp h4 {
+        font-weight: 700;
+        font-size: 19.4482px;
+        line-height: 22px;
+    }
+    .comfort-lamp button {
+           font-size: 15px;
+          width: 120px;
+          padding: 10px;
+        margin-bottom: 20px;
+    }
+    .special-deal-content img{
+           width: 100%;
+    }
+    .special-deal-item {
+        width: 30px;
+        height: 30px;
+          font-size: 12.3px;
+           line-height: 30px;
+    }
+    .special-deal h5 {
+          font-size: 20px;
+           margin-top: 10px;
+    }
+    .special-deal-items p {
+           margin-bottom: 10px;
+    }
+    .comfort-lamp{
+        padding: 20px 20px 0px 20px;
+        margin-bottom: 40px;
+        height: auto;
+    }
+    .comfortable-chair {
+       
+        margin-bottom: 0px;
+        
+    }
+    .comfort-lamp img{
+        width: 100%;
+    }
+    .footer-outer {
+          padding: 15px 0px;
+    }
+    .footer .site-links h3 {
+         font-size: 18px;
+        line-height: 25px;
+           margin-bottom: 5px;
+       }
+       .site-links ul li {
+           font-size: 15px;
+        line-height: 22px;
+       }
+       .footer .help h3 {
+        font-size: 18px;
+       line-height: 25px;
+          margin-bottom: 5px;
+      }
+      .help ul li {
+          font-size: 15px;
+       line-height: 22px;
+      }
+      .footer .about h3 {
+        font-size: 18px;
+       line-height: 25px;
+          margin-bottom: 8px;
+      }
+      .about ul li {
+          font-size: 15px;
+       line-height: 22px;
+      }
+      .footer .site-links h3 {
+        font-size: 18px;
+       line-height: 25px;
+          margin-bottom: 8px;
+      }
+      .lets-talk h3{
+          font-size: 18px;
+          margin-bottom: 8px;
+       line-height: 25px;
+      }
+      .find-us h3{
+        font-size: 18px;
+        margin-bottom: 8px;
+     line-height: 25px;
+    }
+    .lets-talk-content i {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 10px;
+        margin-right: 7px;
+    }
+    .lets-talk-content {
+        margin-bottom: 10px;
+    }
+    .lets-talk-content span {
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .lets-talk-email i {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 10px;
+        margin-right: 7px;
+    }
+    .lets-talk-email {
+        margin-bottom: 10px;
+    }
+    .lets-talk-email span {
+           font-size: 15px;
+    }
+    .find-us-address i {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 10px;
+        margin-right: 7px;
+    }
+    .find-us-address {
+        margin-bottom: 10px;
+    }
+    .find-us-address span {
+          font-size: 15px;
+    }
+    .footer-outer-content {
+        margin-bottom: 15px;
+        display: inherit;
+        text-align: center;
+    }
+    .footer-outer-card{
+        text-align: center;
+    }
+    .footer-outer-item{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /* Auction section ends here */
+    
+    /* about page start here */
+    .head-banner-about h3{
+        padding: 40px 0px;
+       
+        font-size: 25px;
+    }
+    .banner-content-about{
+        padding: 20px 0px;
+    }
+    .banner-content-right-about p{
+        font: 14px;
+    
+    }
+    /* About page ends here */
+    /* Contact us page start here  */
+    .contact-info-add{
+        box-shadow: 0px 0px 10px 2px #ccc;
+        padding: 15px;
+    margin-bottom: 15px;
+    
+    
+    }
+    .contact-info-add p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .contact-icon-info {
+        width: 45px;
+        height: 45px;
+    }
+    .contact-icon-info i{
+        line-height: 45px;
+    }
+    .contact-map{
+        margin-top: 35px;
+        height: 300px;
+    }
+    .contact-address {
+        padding: 40px 0px 20px 0px;
+    }
+    .contact-form h3 {
+           font-size: 20px;
+           margin-bottom: 10px;
+    }
+    /* Contact Us page ends here */
+    /* Workplace page start here */
+    .breadcrumb-content {
+        padding: 25px 0px;
+    }
+    .left-breadvrumb nav ol li {
+           font-size: 14px;
+    }
+    .content-main {
+        margin-right: 0px;
+        margin-bottom: 20px;
+        height: 250px;
+    }
+    .content-main img{
+        width: 100%;
+        height: 100%;
+    }
+    .content-small img{
+        width: 23%;
+    }
+    .left-breadvrumb {
+        margin-bottom: 20px;
+    }
+    .instant-buy {
+        
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .instant-price {
+          font-size: 16px;
+        line-height: 40px;
+    }
+    .instant-buy-workplace {
+        height: 40px;
+           margin-top: 25px;
+        margin-right: 0px;
+    }
+    .current-price {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .current-price h4 {
+        
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .current-price h4 span {
+        margin-left: 40px;
+    }
+    .dining-chair h3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .dining-chair p {
+         font-size: 14px;
+        line-height: 16px;
+    }
+    .notified {
+        width: 150px;
+        height: 35px;
+          font-size: 14px;
+        line-height: 35px;
+       
+        padding-right: 35px;
+    }
+    .notified-img {
+        width: 35px;
+        height: 35px;
+    }
+    .border-top {
+        opacity: 0;
+        border: 0px ;
+        margin-bottom: 15px;
+    }
+    .current-bid-price {
+        height: 40px;
+        border-radius: 0px;
+    }
+    .price {
+           font-size: 16px;
+        line-height: 40px;
+         padding-right: 0px;
+    }
+    .current-bid {
+           font-size: 16px;
+           line-height: 40px;
+        padding-left: 0px;
+    }
+    .hoghest-bidder {
+        margin: 15px 0px 10px 0px;
+           font-size: 15px;
+    }
+    .workplace-content {
+            padding: 15px 0px 0px 0px;
+    }
+    .customer-info{
+        padding-left: 10px;
+    }
+    .customer-info h4 {
+          font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 0px;
+    }
+    .customer-info p {
+          font-size: 14px;
+        line-height: 18px;
+      }
+      .table-time-left {
+        height: 40px;
+          border-radius: 0px;
+    }
+    .time-left {
+           font-size: 16px;
+        line-height: 40px;
+    }
+    .time-count {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .auction-info {
+          padding: 0px 0px;
+    }
+    .auction-head {
+          height: 50px;
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+    .auction-end{
+       border-bottom: 1px solid #fff;
+        padding: 10px;
+        margin-bottom: 0px;
+    }
+    .auction-end-img {
+        width: 45px;
+        height: 45px;
+       
+    }
+    .auction-end-img img{
+        line-height: 45px;
+    }
+    .auction-end h3 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .auction-end p {
+           height: inherit;
+    }
+    .auction-end span {
+            font-size: 14px;
+        line-height: 18px;
+           margin: 0px 0px 10px 0px;
+    }
+    .tabbing .nav-tabs {
+        margin-bottom: 7px;
+        border-bottom:0px;
+    }
+    .info-tab{
+        border: 1px solid var(--primaryColor);
+        margin-bottom: 10px;
+    }
+    .colorshead tr th {
+            font-size: 15px;
+            line-height: 15px;
+    }
+    .info-tab .nav-link{
+        font-size: 15px;
+        padding: 7px;
+    }
+    .colorshead {
+        height: 45px;
+    }
+    .tablebody tr td {
+            font-size: 13px;
+        line-height: 21px;
+            padding: 15px 0px
+    }
+    .tab-user-border {
+     
+        padding: 0px;
+    }
+    .description {
+        padding: 0px 0px;
+          font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .reviewcomment {
+        line-height: 18px;
+        margin-top: 7px;
+        margin-bottom: 30px;
+    }
+    .review {
+            font-size: 15px;
+        line-height: 16px;
+         margin-bottom: 15px;
+    }
+    .fromheading i {
+        line-height: 16px;
+        margin-bottom: 15px;
+    }
+    .fromlayout input {
+         height: 40px;
+    }
+    .tabbing .nav-tabs .active {
+        padding-bottom: 10px;
+    }
+    .reviewbtn button {
+           padding: 12px 20px;
+        width: 250px;
+        font-size: 16px;
+     }
+     .reviewbtn {
+          justify-content: center;
+    }
+    /* Workplace page ends here */
+    }
+}

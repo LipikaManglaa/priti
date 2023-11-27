@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css"	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+
+</head>
+<body>
+     <!-- LogIn Modal -->
+  <div class="modal fade" id="logIn" tabindex="-1" aria-labelledby="logInLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+			<img src="images/logo.png" alt="Logo"/>
+		  
+		  <button type="button" class="btn-close btn-login" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+			<section class="container-fluid py-lg-4 py-2">
+				<div class="container">
+					<div class="row">
+						<div class=" col-12">
+							<div class="contact-form">
+								<h3>Log In</h3>
+								<form action="">
+								   
+									<div class="m-md-3 m-2 p-2">
+										<label  class="form-label">User Name *</label>
+										<input type="text" class="form-control" placeholder="Enter User Name">
+									  </div>
+									  <div class="m-md-3 m-2 p-2">
+										<label  class="form-label">Password *</label>
+										<input type="password" class="form-control"  placeholder="Password">
+									  </div>
+									 
+							  								  
+									 <div class="m-md-3 m-2 p-2 contactformbtn">
+			
+										<button type="submit" class="btn ">LogIn</button>
+								
+								
+									  </div>
+								</form>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			 </section>
+		</div>
+		
+	  </div>
+	</div>
+  </div>
+  <!-- LogIn modal ends here -->
+  <!-- Register Modal start here -->
+  <div class="modal fade" id="register" tabindex="-1" aria-labelledby="registerLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+			<img src="images/logo.png" alt="Logo"/>
+		  
+		  <button type="button" class="btn-close btn-register" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+			<section class="container-fluid py-lg-4 py-2">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="contact-form">
+								<h3>Register Here</h3>
+								<form action="" class="needs-validation" novalidate id="passwordForm">
+								   
+									<div class="m-md-3 m-2 p-2">
+										<label  class="form-label" for="validationCustom01">First Name *</label>
+										<input type="text" class="form-control" placeholder="First Name" id="validationCustom01" required>
+										<div class="invalid-feedback">
+											Please choose a first name.
+										  </div>
+									</div>
+									  <div class="m-md-3 m-2 p-2">
+										<label  class="form-label" for="validationCustom01">Last Name *</label>
+										<input type="text" class="form-control" placeholder="Last Name"id="validationCustom01" required>
+										<div class="invalid-feedback">
+											Please choose a last name.
+										  </div>
+									</div>
+									  <div class="m-md-3 m-2 p-2">
+										<label  class="form-label" for="validationCustom01">Mobile Number *</label>
+										<input type="text" class="form-control"  placeholder="Mobile No." id="validationCustom01" required>
+										<div class="invalid-feedback">
+											Please choose a mobile no.
+										  </div>
+									</div>
+									  <div class="m-md-3 m-2 p-2">
+										<label  class="form-label" for="validationCustom01"> Email Address *</label>
+										<input type="email" class="form-control"  placeholder="Email" id="validationCustom01" required>
+										<div class="invalid-feedback">
+											Please choose a Email address.
+										  </div>
+									</div>
+									
+									  <div class="m-md-3 m-2 p-2">
+										<label  class="form-label" for="validationCustom01">Password *</label>
+										<input type="password" class="form-control" name="password" placeholder="password" id="password" required>
+									  </div>
+									  <div class="m-md-3 m-2 p-2">
+										<label  class="form-label" for="validationCustom01"> Confirm password *</label>
+										<input type="password" class="form-control" name="password2"  placeholder="Confirm Password" id="password2" required>
+									  </div>
+							  
+									
+									 <div class="m-md-3 m-2 p-2 contactformbtn">
+									<button type="submit" class="btn ">Register</button>
+								
+								
+									  </div>
+								</form>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			 </section>
+		</div>
+		
+	  </div>
+	</div>
+  </div>
+  <!-- Register Modal ends here -->
+	<div class="headertop"></div>
+	<header class="container-fluid sticky-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<nav class="navbar navbar-expand-lg mobile ">
+						<a href="" class="navbar-brand">
+							<img src="images/logo.png" />
+						</a>
+						<button class="navbar-toggler mobile-content" type="button" data-bs-toggle="offcanvas"
+							data-bs-target="#offcanvasExample">
+							<span class="navbar-toggler-icon mobile-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse justify-content-end menu" id="navbarNav">
+							<ul class="navbar-nav align-items-lg-center">
+								<li class="nav-item">
+									<a href="" class="nav-link">
+										Collection
+									</a>
+								</li>
+								<li class="nav-item">
+									<a href="help.html" class="nav-link">
+										Help
+									</a>
+								</li>
+								<li class="nav-item">
+									<a href="product.html" class="nav-link">
+										product
+									</a>
+								</li>
+								<li class="nav-item">
+									<a href="winner.html" class="nav-link">
+										Winners
+									</a>
+								</li>
+								<li class="nav-item">
+									<a href="contact.html" class="nav-link">
+										Contact
+									</a>
+								</li>
+								<li class="nav-item">
+									<button class="get-start" data-bs-toggle="modal" data-bs-target="#register">Get Started</button>
+								</li>
+								<li>
+									<button class="logIn" data-bs-toggle="modal" data-bs-target="#logIn">Log In</button>
+								</li>
+							</ul>
+						</div>
+					</nav>
+					<div class="offcanvas offcanvas-start offcanvas-size-sm" id="offcanvasExample">
+						<div class="offcanvas-header">
+							<h5 class="offcanvas-title" id="offcanvasExampleLabel">
+								<img src="images/logo.png" />
+							</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+								aria-label="Close"></button>
+						</div>
+						<div class="offcanvas-body">
+							<div class=" navbar-collapse justify-content-end menu" id="navbarNav">
+								<ul class="navbar-nav align-items-lg-center">
+									<li class="nav-item">
+										<a href="" class="nav-link">
+											Collection
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="" class="nav-link">
+											Help
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="" class="nav-link">
+											Tips & Tricks
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="" class="nav-link">
+											Winners
+										</a>
+									</li>
+									<li class="nav-item">
+										<button class="get-start" data-bs-toggle="modal" data-bs-target="#register">Get Started</button>
+									</li>
+									<li>
+										<button class="logIn" data-bs-toggle="modal" data-bs-target="#logIn">Log In</button>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+    <section class="container">
+        <div class="container-fluid breadcrumb-content">
+        <div class="row ">
+        <div class="col-md-6 col-12">
+            <div class="left-breadvrumb">
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Home</a></li>
+                      <li class="breadcrumb-item"><a href="#">Workplace</a></li>
+                      <li class="breadcrumb-item"><a href="#">Solutions</a></li>
+                      <li class="breadcrumb-item " aria-current="page">Bai Armchair</li>
+                    </ol>
+                  </nav>
+                 </div> 
+                 <div class="row">
+                    <div class="col-md-3 col-12 order-2 order-md-1">
+                        <div class="content-items order-2">
+                        <div class="content-small">
+                            <img src="images/workplace/small-chair1.png" alt="Chair" title="Chair" class="img-fluid"/>
+                            <img src="images/workplace/small-chair2.png" alt="Chair" title="Chair" class="img-fluid"/>
+                            <img src="images/workplace/small-chair3.png" alt="Chair" title="Chair" class="img-fluid"/>
+                            <img src="images/workplace/small-chair-4.png" alt="Chair" title="Chair" class="img-fluid"/>
+                       
+                        </div>
+                        <!-- <div class="content-small">
+                            <img src="images/workplace/small-chair1.png" alt="Chair" title="Chair"/>
+                        </div>
+                        <div class="content-small">
+                            <img src="images/workplace/small-chair1.png" alt="Chair" title="Chair"/>
+                        </div>
+                        <div class="content-small">
+                            <img src="images/workplace/small-chair1.png" alt="Chair" title="Chair"/>
+                        </div> -->
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-12 order-1 order-md-2">
+                        <div class="content-main ">
+                            <img src="images/workplace/main-chair.png" class="img-fluid" alt="Furniture" title="Furniteu
+                            "/>
+                        </div>
+                    </div>
+                 </div> 
+                 <div class="row instant-buy-workplace">
+                    <div class="col-6">
+                        <div class="instant-buy">instant buy</div>
+                    </div>
+                    <div class="col-6">
+                        <div class="instant-price text-end">$21.00</div>
+                    </div>
+                 </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="current-price text-md-end">
+                    <h4>Current Price<span>$550.00</span></h4>
+                </div>
+                <div class="row ">
+                    <div class="col-md-8 col-12">
+                        <div class="dining-chair">
+                            <h3>Arne Dining Chair</h3>
+                            <p>Category: <span>Furntinure & Decoration</span></p>
+                        </div>
+                    </div>
+                       <div class="col-md-4 col-12 text-end">
+                        <div class="notified ">
+                            Get Notified
+                            <div class="notified-img"><img src="images/workplace//Vector (1).png" >
+                        </div>
+                        </div>
+                    </div>
+                </div>
+				<div class="row">
+					<div class="col-12">
+						<div class="border-top"></div>
+					</div>
+				</div>
+                <div class="row current-bid-price">
+                    <div class="col-6">
+                        <div class="current-bid">
+                        <p>Current Bid</p>
+                    </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="price text-end">
+                            $0.00
+                        </div>
+                    </div> 
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="hoghest-bidder">
+                            CURRENT HIGHEST BIDDER
+                        </div>
+                    </div>
+                </div>
+                <div class="row workplace-content">
+                    <div class="col-12">
+                        <div class="row ">
+                            <div class="col-md-2 col-3">
+                                <div class="img-customer">
+                                    <img src="images/workplace/Rectangle 17018.png" alt="Customer" title="Customer"/>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-5">
+                                <div class="customer-info">
+                                <h4>Justin George</h4>
+                                <p>21 / 01 / 2014</p>
+                            </div>
+                            </div>
+                            <div class="col-md-7 col-4">
+                                <div class="customer-country text-end">
+                                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                                    <span>India</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="customer-des">
+                                <p>This is the perfect upscale piece for an exquisite home.</p> </div>
+                        </div>
+                        <div class="row">
+							<div class="col-12">
+							<div class="table-workplace">
+                            <table  class="table table-hover" style="width:100%">
+								<thead>                                <tr>
+                                    <th class="text-start">Bid</th>
+                                    <th>User</th>
+                                    <th>Time</th>
+                                </tr>
+								</thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-start">$2. 48</td>
+                                        <td><img src="images/workplace/Ellipse 1.png"/> George df</td>
+                                    <td>5:15:30 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-start">$2. 48</td>
+                                        <td><img src="images/workplace/Ellipse 2.png"/> Leo Levin</td>
+                                    <td>5:15:30 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-start">$2. 48</td>
+                                        <td><img src="images/workplace/Ellipse 3.png"/> Leo Levin</td>
+                                    <td>5:15:30 PM</td>
+                                    </tr>
+                                </tbody>
+                            </table> 
+						</div>
+					</div></div>
+                            <div class="row table-time-left">
+                                <div class="col-6">
+                                    <div class="time-left">Time Left</div>
+                                </div>
+                                <div class="col-6">
+
+                                    <div class="time-count text-end">00:00:03</div>
+                                </div>
+                            </div>
+                    </div>
+                     </div>
+            </div>
+            </div>
+        </div>
+    </section>
+	<!-- Section ends here -->
+	
+	
+	<!--  Auction information section start here-->
+	<section class="container-fluid py-md-5 py-2">
+		<div class="container auction-info">
+			<div class="row">
+				<div class="col-12">
+					<div class="auction-head">
+						<h3>Auction Information</h3>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="row">
+						<div class="col-lg-3">
+							<div class="auction-end">
+								<div class="auction-end-img">
+									<img src="images/workplace/Vector.png" alt="Auction information" title="Auction information">
+								</div>
+								<h3>AUCTION END TIME</h3>
+								<p>Tue Mar 22, 2022 at 7:01PM PDT</p>
+								<span>Extended Bidding</span>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="auction-end">
+								<div class="auction-end-img">
+									<img src="images/workplace/Vector.png" alt="Auction information" title="Auction information">
+								</div>
+								<h3>PICKUP DATE</h3>
+								<p>Sat Mar 26, 2022 10am-5pm<br/>
+									&<br/>
+									Tue Mar 29, 2022 1pm-5pm</p>
+								<span>Extended Bidding</span>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="auction-end">
+								<div class="auction-end-img">
+									<img src="images/workplace/Vector.png" alt="Auction information" title="Auction information">
+								</div>
+								<h3>DELIVERY</h3>
+								<p>Third party delivery supported</p>
+								<span>We recommend GoShare</span>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="auction-end">
+								<div class="auction-end-img">
+									<img src="images/workplace/Vector.png" alt="Auction information" title="Auction information">
+								</div>
+								<h3>ALL SALES ARE FINAL</h3>
+								<p>Items sold AS IS, NO RETURNS</p>
+								<span>Final Bid</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Auction information section ends here -->
+	<!-- Additional information start here -->
+	<section class="container-fluid pb-md-5 pb-2">
+		<div class="container">
+			<div class="tabing">
+				
+				  <div class="row">
+					<div class="col-lg-12">
+					  <div class="tabs tabbing">
+						<ul class="nav nav-tabs  d-flex justify-content-between" id="myTab" role="tablist">
+						  <li class="nav-item info-tab" role="presentation">
+							<button class="nav-link active " id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">ADDITIONAL INFORMATION</button>
+						  </li>
+						  <li class="nav-item info-tab" role="presentation">
+							<button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">DESCRIPTION</button>
+						  </li>
+						  <li class="nav-item info-tab" role="presentation">
+							<button class="nav-link  " id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">REVIEWS (0)</button>
+						  </li>
+						</ul>
+						<div class="tab-content  " id="myTabContent">
+						  <div class="tab-pane fade show active tab-user-border " id="home" role="tabpanel" aria-labelledby="home-tab">
+							<table class=" tablemenu table-hover">
+							  <thead class="colorshead">
+								<tr>
+								  <th>User</th>
+								  <th>Est. Total Cost</th>
+								  <th>Final Bid</th>
+								</tr>
+							  </thead>
+							  <tbody class="tablebody">
+								<tr>
+								  <td>JulesMoonwing</td>
+								  <td>$100.99<br>
+								  434 Bids Placed</td>
+								  <td>$14.19<br>
+								  6/4/2022</td>
+								</tr>
+								<tr>
+								  <td>JulesMoonwing</td>
+								  <td>$100.99<br>
+								  434 Bids Placed</td>
+								  <td>$14.19<br>
+								  6/4/2022</td>
+								</tr>
+								<tr>
+								 <td>JulesMoonwing</td>
+								 <td>$100.99<br>
+								 434 Bids Placed</td>
+								 <td>$14.19<br>
+								 6/4/2022</td>
+							   </tr>
+							 </tbody>
+						   </table>
+						 </div>
+						 <div class="tab-pane fade  " id="profile" role="tabpanel" aria-labelledby="profile-tab">
+						   <div class="row">
+							 <div class="col-12 description">
+							  Our Side Chair is an epitome of a piece-of-art. Its play on clean lines and designs makes this chair very appealing to a home decor that appreciates standout pieces. Don’t overlook the details of the side chair which is made of durable wood frame and covered in fabric upholstery that makes it extremely inviting to your guests. Its sleek legs are built to create balance and the back seat includes exposed zip zag lines that makes this chair aesthetically pleasing and agreeable to any form.
+							</div>
+						  </div>
+						  <div class="row">
+						   <div class="similarprodcut">Similar Photos:</div>
+						   </div>
+						   <div class="row">
+						   <div class="col-md-3 col-6 mb-3">
+							<div class="similarimg">
+							 <img src="images/workplace/descimage1.png" class="img-fluid" alt="Description"/>
+						   </div>
+						   </div>
+						   
+													   <div class="col-md-3 col-6 mb-3">
+														<div class="similarimg">
+							 <img src="images/workplace/descimage2.png" class="img-fluid" alt="Description"/>
+						   </div>
+						   </div>
+						   
+						   <div class="col-md-3 col-6 mb-3">
+							<div class="similarimg">
+							 <img src="images/workplace/descimage3.png" class="img-fluid" alt="Description"/>
+						   </div>
+						   </div>
+						   
+						   <div class="col-md-3 col-6 mb-3">
+							<div class="similarimg">
+							 <img src="images/workplace/descimage4.png" class="img-fluid" alt="Description"/>
+						   </div>
+						</div>
+						 </div>
+					   </div>
+					   <div class="tab-pane fade " id="contact" role="tabpanel" aria-labelledby="contact-tab">
+						 <div class="row">
+						   <div class="col-lg-6 col-12">
+							 <div class="row">
+							   <div class="col-md-2 col-3 pr-0">
+								<div class="review-img">
+								 <img src="images/workplace/Ellipse 1 (1).png" class=" mx-auto d-block"  width="55" height="55">
+							   </div>
+							   </div>
+							   <div class="col-md-10 col-8 ">
+								<div class="reviewmenu">
+								 Corey Lubin
+								 <p>  <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></p>
+							   </div>
+							   </div>
+							 </div>
+							 <div class="row">
+							   <div class="col-12 ">
+								<div class="reviewcomment">
+								 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.
+							   </div>
+							   </div>
+							 </div>
+							 <div class="row">
+							   <div class="col-md-2 col-3">
+								<div class="review-img">
+								 <img src="images/workplace/Ellipse 2 (1).png" class=" mx-auto d-block"  width="55" height="55">
+							   </div>
+							   </div>
+							   <div class="col-md-10 col-9">
+								<div class="reviewmenu">
+								Mira Kenter
+								<p>  <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></p>
+							  </div>
+							  </div>
+							</div>
+							<div class="row">
+							 <div class="col-12 ">
+								<div class="reviewcomment">
+																   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.
+							 </div>
+							 </div>
+						   </div>
+						   <div class="row">
+							 <div class="col-md-2 col-3">
+								<div class="review-img">
+							   <img src="images/workplace/Ellipse 3 (1).png" class=" mx-auto d-block"  width="55" height="55">
+							 </div>
+							 </div>
+							 <div class="col-md-10 col-9 ">
+								<div class="reviewmenu">
+							   Adison Rhiel Madsen
+							   <p>  <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></p>
+							 </div>
+							 </div>
+						   </div>
+						   <div class="row">
+							 <div class="col-12 ">
+								<div class="reviewcomment">
+							   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.
+							 </div>
+						   </div>
+						   </div>
+						 </div>
+						 <div class="col-lg-6 col-12 froms">
+						  <div class="row">
+							<div class="col-6 ">
+								<div class="review">
+							Add a Review:</span>
+						  </div>
+						  </div>
+						  <div class="col-6 text-end ">
+							<div class="fromheading">
+							<i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+						  </div>
+						  </div>
+						</div>
+						<form>
+							<div class="fromlayout">
+						 <div class="m-md-3 m-1">
+						  <label  class="form-label">Your Review*</label>
+						  <input type="text" class="form-control" placeholder="">
+						</div>
+						<div class="m-md-3 m-1">
+						  <label class="form-label">Name*</label>
+						  <input type="text" class="form-control" placeholder="">
+						</div>
+						<div class="m-md-3 m-1">
+						  <label class="form-label">E-mail*</label>
+						  <input type="text" class="form-control" placeholder="">
+						</div>
+						
+						</div>
+						<div class=" reviewbtn ">
+							<button class="btn  " type="button">Add Review</button>
+						  </div>
+					  </form>              
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			</div>
+			
+			</div>
+			</div>
+		</div>
+	</section>
+	<!-- Addition information ends here -->
+	<div class="container-fluid py-lg-5">
+		<div class="container feature-product">
+			<div class="row">
+				<div class="col-12 feature-pro">
+					<h3>Related Products</h3>
+				</div>
+			</div>
+			<div class="row">
+				
+				<div class="col-lg-3 col-md-4 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/feature-products/nightstand.png" alt="White Oak Nightstand" title="
+					White Oak Nightstand" />
+							<div class="feature-product-off">
+								<span>50% Off</span>
+							</div>
+						</div>
+
+						<h4>White Oak Nightstand</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/feature-products/slim-desk.png" alt="Vipp Desk Lamp" title="
+					Vipp Desk Lamp" />
+							<div class="feature-product-off">
+								<span>50% Off</span>
+							</div>
+							<div class="feature-product-no"><img src="images/feature-products/Vector.png" alt=""></div>
+						</div>
+
+						<h4>Vipp Desk Lamp</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/feature-products/table.png" alt="Hironpal Table" title="
+					Hironpal Table" />
+							<div class="feature-product-off">
+								<span>60%</span><span class="feature-hot">HOT</span>
+							</div>
+							<div class="feature-product-no">1</div>
+						</div>
+
+						<h4>Hironpal Table</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-12">
+					<div class="feature-product-items">
+						<!-- <div class="feature-product-pos"> -->
+
+						<!-- </div> -->
+						<div class="feature-product-img">
+							<img src="images/feature-products/rocking-chair.png" alt="Rocking Chair" title="
+					Rocking Chair" />
+							<div class="feature-product-off">
+								<span>50% Off</span>
+							</div>
+							<div class="feature-product-no">1</div>
+						</div>
+
+						<h4>Rocking Chair</h4>
+						<div class="feature-product-list">
+							<h3>00:00:05</h3>
+							<span>$ 2.97</span>
+						</div>
+						<button>Bid Now</button>
+						<h5>Buy it Now for $99</h5>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!-- Featured Products section ends here -->
+    	<!-- Footer Section start here -->
+	<section class="container-fluid py-5 footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-2 col-12 ">
+					<div class="site-links">
+						<h3>Site Links</h3>
+						<ul>
+							<li><a href="">Auctions</a></li>
+							<li><a href="">PritiAuction Reviews</a></li>
+							<li><a href=""></a> PritiAuction is Legit</a></li>
+							<li><a href="">Press</a></li>
+							<li><a href="">Log in</a></li>
+							<li><a href="">Create Account</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-2 col-12 ">
+					<div class="help">
+						<h3>Help</h3>
+						<ul>
+							<li><a href="">How to Bid in an Auction</a></li>
+							<li><a href="">Tips & Tricks</a></li>
+							<li><a href="">Frequently Asked Questions</a></li>
+							<li><a href="">What is a Bid Pack? </a></li>
+							<li><a href="">What is “Time as Highest Bidder?”</a></li>
+							<li><a href="">Promotions</a></li>
+							<li><a href="">Orders & Shipping</a></li>
+							<li><a href="">Payments</a></li>
+							<li><a href="">House Rules</a></li>
+							<li><a href="">Royalty Program</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-2 col-12 ">
+					<div class="about">
+						<h3>About</h3>
+						<ul>
+							<li><a href="">
+									Careers</a></li>
+							<li><a href="">Our team</a></li>
+							<li><a href="">Suppliers</a></li>
+							<li><a href="">About Us</a></li>
+							<li><a href="">Terms of Use</a></li>
+							<li><a href="">Privacy Policy</a></li>
+							<li><a href="">Accessibility</a></li>
+
+						</ul>
+					</div>
+
+				</div>
+				<div class="col-lg-3 col-md-2 col-12 ">
+					<div class="lets-talk">
+						<h3>let’s Talk</h3>
+						<div class="lets-talk-content"><i class="fa-solid fa-phone"></i><a
+								href="tel:8778009998"><span>(877) 800-9998 </span></a></div>
+						<div class="lets-talk-email"><i
+								class="fa-solid fa-envelope"></i><span>Pritiauction@gmail.com</span> </div>
+
+					</div>
+					<div class="find-us">
+						<h3>Find us</h3>
+						<div class="row">
+
+							<div class=" col-md-2 col-1">
+								<div class="find-us-address">
+									<i class="fa-sharp fa-regular fa-location-dot"></i>
+								</div>
+							</div>
+							<div class="col-9">
+								<div class="find-us-address">
+									<span>502 New Design String
+										Melbourne, Australia</span>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer Section ends here -->
+	<!-- Footer outer Section start here -->
+	<div class="container-fluid footer-outer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-outer-item ">
+					<div class="col-md-6 col-12">
+						<div class="footer-outer-content">&copy;© PritiAuction - All Rights Reserved
+						</div>
+					</div>
+					<div class="col-md-6 col-12">
+						<div class="footer-outer-card text-md-end">
+							<img src="images/Group 869.png" alt="Bnak Card" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer Outer Section ends here -->
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    let allimages=document.querySelector('.content-items .content-small ');
+    let changeImg=document.querySelector('.content-main img');
+    allimages.addEventListener('click',(e)=>{
+          changeImg.src=e.target.src;
+      changeImg.style.width="100%";
+      
+    })
+
+
+    
+</script>
+</html>
