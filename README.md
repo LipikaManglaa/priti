@@ -16,6 +16,8 @@ This application is based on furniture where you can see differnet types of furn
 * [Technologies-Used](#Technologies-Used)
 
 * [Installation](#installation)
+
+* [Screenshots](#Screenshots) 
   
 * [Instructions](#Instructions) 
           
@@ -31,7 +33,19 @@ This application is based on furniture where you can see differnet types of furn
   *CSS
   *JAVASCRIPT
  
+ ### Screenshots
 
+ Home Screen
+   ![This is screenshot](./screenshot/home.png)
+
+ Auction Screen
+   ![This is screenshot](./screenshot/auction.png)
+   
+ Login Screen
+   ![This is screenshot](./screenshot/login.png)
+
+ Mobile Responsive
+   ![This is screenshot](./screenshot/mobile.png)
 
 ### Installing
 
